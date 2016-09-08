@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css?family=Doppio+One';
+body {
+  margin 0;
+  padding:0;
+  color:white;
+  background-color:#779ECB;
+  font-family: 'Doppio One', sans-serif;
+}
+h1 {
+  margin:1em;
+}
+.centered {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.parent {
+  height: auto;
+  background:rgba(75,80,84, 0.3);
+  width: 42em;
+  min-width: 25em;
+  padding: 2em;
+}
+
+.font-1 {
+  font-size:2.5em;
+}
+.font-2 {
+  font-size:4em;
+}
+.boxed {
+  border: 1px solid white;
+}
+.btn-mod {
+  background-color:transparent;
+  border:1px solid white;
+  font-size:29px;
+  outline:none;
+  width:1em;
+  margin:0 1em 0 1em;
+  width:auto;
+}
+.btn-mod-2 {
+  background-color:transparent;
+  border:0px solid white;
+  font-size:29px;
+  outline:none;
+  width:1em;
+  margin:0 1em 0 1em;
+  width:auto;
+}
+.inlined {
+  display: inline-flex; 
+}
+.bg2 {
+  background:#FF6962;
+  height: auto;
+  width: 42em;
+  min-width: 25em;
+  padding: 2em;
+}
